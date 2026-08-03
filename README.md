@@ -10,12 +10,12 @@ Official VB.NET SDK for LicenseChain - Secure license management for VB.NET appl
 
 - **ðŸ” Secure Authentication** - User registration, login, and session management
 - **📜 License Management** - Create, validate, update, and revoke licenses
-- **ðŸ›¡ï¸ Hardware ID Validation** - Prevent license sharing and unauthorized access
+- **🛡 Hardware ID Validation** - Prevent license sharing and unauthorized access
 - **🔔 Webhook Support** - Real-time license events and notifications
 - **📊 Analytics Integration** - Track license usage and performance metrics
-- **âš¡ High Performance** - Optimized for production workloads
+- **⚡ High Performance** - Optimized for production workloads
 - **🔄 Async Operations** - Non-blocking HTTP requests and data processing
-- **ðŸ› ï¸ Easy Integration** - Simple API with comprehensive documentation
+- **🛠 Easy Integration** - Simple API with comprehensive documentation
 
 
 ## License assertion JWT (RS256 + JWKS)
@@ -324,7 +324,7 @@ export LICENSECHAIN_BASE_URL=https://api.licensechain.app
 export LICENSECHAIN_DEBUG=true
 ```
 
-## ðŸ›¡ï¸ Security Features
+## 🛡 Security Features
 
 ### Hardware ID Protection
 
@@ -464,7 +464,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [LicenseChain Node.js SDK](https://github.com/LicenseChain/LicenseChain-NodeJS-SDK)
 ---
 
-**Made with â¤ï¸ for the VB.NET community**
+**Made with ❤️ for the VB.NET community**
 
 
 ## API Endpoints
