@@ -11,7 +11,7 @@
     <Product>LicenseChain VB.NET SDK</Product>
     <Description>Official LicenseChain VB.NET SDK for license management and validation</Description>
     <Copyright>Copyright © 2024 LicenseChain LLC</Copyright>
-    <PackageLicenseExpression>Elastic-2.0</PackageLicenseExpression>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/LicenseChain/LicenseChain-VB-SDK</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/LicenseChain/LicenseChain-VB-SDK</RepositoryUrl>

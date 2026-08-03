@@ -6,15 +6,15 @@
 
 Official VB.NET SDK for LicenseChain - Secure license management for VB.NET applications.
 
-## ðŸš€ Features
+## 🚀 Features
 
 - **ðŸ” Secure Authentication** - User registration, login, and session management
-- **ðŸ“œ License Management** - Create, validate, update, and revoke licenses
+- **📜 License Management** - Create, validate, update, and revoke licenses
 - **ðŸ›¡ï¸ Hardware ID Validation** - Prevent license sharing and unauthorized access
-- **ðŸ”” Webhook Support** - Real-time license events and notifications
-- **ðŸ“Š Analytics Integration** - Track license usage and performance metrics
+- **🔔 Webhook Support** - Real-time license events and notifications
+- **📊 Analytics Integration** - Track license usage and performance metrics
 - **âš¡ High Performance** - Optimized for production workloads
-- **ðŸ”„ Async Operations** - Non-blocking HTTP requests and data processing
+- **🔄 Async Operations** - Non-blocking HTTP requests and data processing
 - **ðŸ› ï¸ Easy Integration** - Simple API with comprehensive documentation
 
 
@@ -28,7 +28,7 @@ Successful **`POST /v1/licenses/verify`** may include **`license_token`**, **`li
 
 **Runnable (this repo):** `dotnet run --project examples/jwks_only/jwks_only.vbproj` with **`LICENSECHAIN_LICENSE_TOKEN`** and **`LICENSECHAIN_LICENSE_JWKS_URI`** (optional **`LICENSECHAIN_EXPECTED_APP_ID`**). **C# reference:** [LicenseChain-CSharp-SDK/examples/jwks_only](https://github.com/LicenseChain/LicenseChain-CSharp-SDK/tree/main/examples/jwks_only). See [THIN_CLIENT_PARITY](https://docs.licensechain.app/).
 
-## ðŸ“¦ Installation
+## 📦 Installation
 
 ### Method 1: NuGet Package (Recommended)
 
@@ -54,7 +54,7 @@ Add to your `.vbproj`:
 2. Add the DLL reference to your project
 3. Install required dependencies
 
-## ðŸš€ Quick Start
+## 🚀 Quick Start
 
 ### Basic Setup
 
@@ -174,7 +174,7 @@ End Function)
 Await client.StartWebhookListenerAsync()
 ```
 
-## ðŸ“š API Reference
+## 📚 API Reference
 
 ### LicenseChainClient
 
@@ -278,7 +278,7 @@ Await client.TrackEventAsync(eventName, properties)
 Dim analytics As Analytics = Await client.GetAnalyticsAsync(timeRange)
 ```
 
-## ðŸ”§ Configuration
+## 🔧 Configuration
 
 ### App Settings
 
@@ -352,7 +352,7 @@ Dim isValid As Boolean = Await client.ValidateHardwareIdAsync(licenseKey, hardwa
 - Expiration checking
 - Feature-based access control
 
-## ðŸ“Š Analytics and Monitoring
+## 📊 Analytics and Monitoring
 
 ### Event Tracking
 
@@ -380,7 +380,7 @@ Console.WriteLine($"Success Rate: {metrics.SuccessRate:P}")
 Console.WriteLine($"Error Count: {metrics.ErrorCount}")
 ```
 
-## ðŸ”„ Error Handling
+## 🔄 Error Handling
 
 ### Custom Exception Types
 
@@ -411,7 +411,7 @@ Dim client As New LicenseChainClient(New LicenseChainConfig With {
 })
 ```
 
-## ðŸ§ª Testing
+## 🧪 Testing
 
 ### Unit Tests
 
@@ -446,18 +446,18 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 3. Build: `dotnet build`
 4. Test: `dotnet test`
 
-## ðŸ“„ License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ðŸ†˜ Support
+## 🆘 Support
 
 - **Documentation**: [https://docs.licensechain.app/vb](https://docs.licensechain.app/vb)
 - **Issues**: [GitHub Issues](https://github.com/LicenseChain/LicenseChain-VB-SDK/issues)
 - **Discord**: [LicenseChain Discord](https://discord.gg/licensechain)
 - **Email**: support@licensechain.app
 
-## ðŸ”— Related Projects
+## 🔗 Related Projects
 
 - [LicenseChain JavaScript SDK](https://github.com/LicenseChain/LicenseChain-JavaScript-SDK)
 - [LicenseChain Python SDK](https://github.com/LicenseChain/LicenseChain-Python-SDK)
