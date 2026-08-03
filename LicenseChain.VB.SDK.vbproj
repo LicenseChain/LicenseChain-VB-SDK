@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>LicenseChain.VB</RootNamespace>
+    <AssemblyName>LicenseChain.VB.SDK</AssemblyName>
+    <PackageId>LicenseChain.VB.SDK</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>LicenseChain Team</Authors>
+    <Company>LicenseChain LLC</Company>
+    <Product>LicenseChain VB.NET SDK</Product>
+    <Description>Official LicenseChain VB.NET SDK for license management and validation</Description>
+    <Copyright>Copyright © 2024 LicenseChain LLC</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/LicenseChain/LicenseChain-VB-SDK</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/LicenseChain/LicenseChain-VB-SDK</RepositoryUrl>
+    <PackageTags>license;validation;api;sdk;vb.net</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="examples/**/*.vb" />
+    <Compile Remove="tests/**/*.vb" />
+  </ItemGroup>
+
+</Project>
