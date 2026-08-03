@@ -8,7 +8,7 @@ Official VB.NET SDK for LicenseChain - Secure license management for VB.NET appl
 
 ## 🚀 Features
 
-- **ðŸ” Secure Authentication** - User registration, login, and session management
+- **🔐 Secure Authentication** - User registration, login, and session management
 - **📜 License Management** - Create, validate, update, and revoke licenses
 - **🛡 Hardware ID Validation** - Prevent license sharing and unauthorized access
 - **🔔 Webhook Support** - Real-time license events and notifications
@@ -427,7 +427,7 @@ dotnet test
 dotnet test --filter Category=Integration
 ```
 
-## ðŸ“ Examples
+## 📝 Examples
 
 See the `examples/` directory for complete examples:
 
@@ -435,7 +435,7 @@ See the `examples/` directory for complete examples:
 - `AdvancedFeaturesExample.vb` - Advanced features and configuration
 - `WebhookIntegrationExample.vb` - Webhook handling
 
-## ðŸ¤ Contributing
+## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
