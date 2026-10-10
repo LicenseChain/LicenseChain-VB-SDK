@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1] - 2026-10-10
+
+- Relicensed public surface under Elastic License 2.0 (ELv2).
+- Retargeted library and samples from `net6.0` to `net10.0` (active .NET LTS as of 2026-10).
+- Added CI matrix for .NET 8 / 10 and Dependabot for NuGet / GitHub Actions.
+
 All notable changes to this SDK are documented in this file.
 
 
