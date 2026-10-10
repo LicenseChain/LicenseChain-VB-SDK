@@ -77,3 +77,6 @@ coverage/
 # Local agent / OPSEC
 .claude/
 CLAUDE.md
+*.user
+*.suo
+.vs/
