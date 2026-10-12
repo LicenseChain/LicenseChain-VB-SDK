@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-Elastic--2.0-blue.svg)](LICENSE)
 [![VB.NET](https://img.shields.io/badge/VB.NET-8.0+-blue.svg)](https://docs.microsoft.com/en-us/dotnet/visual-basic/)
-[![.NET](https://img.shields.io/badge/.NET-6.0+-green.svg)](https://dotnet.microsoft.com/)
+[![.NET](https://img.shields.io/badge/.NET-10.0-green.svg)](https://dotnet.microsoft.com/)
 
 Official VB.NET SDK for LicenseChain - Secure license management for VB.NET applications.
 
@@ -34,10 +34,10 @@ Successful **`POST /v1/licenses/verify`** may include **`license_token`**, **`li
 
 ```bash
 # Install via Package Manager Console
-Install-Package LicenseChain.SDK
+Install-Package LicenseChain.VB.SDK
 
 # Or via .NET CLI
-dotnet add package LicenseChain.SDK
+dotnet add package LicenseChain.VB.SDK --version 1.0.2
 ```
 
 ### Method 2: PackageReference
@@ -45,7 +45,7 @@ dotnet add package LicenseChain.SDK
 Add to your `.vbproj`:
 
 ```xml
-<PackageReference Include="LicenseChain.SDK" Version="1.0.0" />
+<PackageReference Include="LicenseChain.VB.SDK" Version="1.0.2" />
 ```
 
 ### Method 3: Manual Installation
@@ -59,7 +59,7 @@ Add to your `.vbproj`:
 ### Basic Setup
 
 ```vb
-Imports LicenseChain.SDK
+Imports LicenseChain.VB
 
 Module Program
     Async Function Main(args As String()) As Task
@@ -442,7 +442,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 
 1. Clone the repository
-2. Install .NET 6.0 or later
+2. Install .NET 10.0 or later
 3. Build: `dotnet build`
 4. Test: `dotnet test`
 
@@ -452,7 +452,7 @@ This project is licensed under the Elastic License 2.0 (ELv2) — see the [LICEN
 
 ## 🆘 Support
 
-- **Documentation**: [https://docs.licensechain.app/vb](https://docs.licensechain.app/vb)
+- **Documentation**: [https://docs.licensechain.app/en/sdk](https://docs.licensechain.app/en/sdk)
 - **Issues**: [GitHub Issues](https://github.com/LicenseChain/LicenseChain-VB-SDK/issues)
 - **Discord**: [LicenseChain Discord](https://discord.gg/licensechain)
 - **Email**: support@licensechain.app

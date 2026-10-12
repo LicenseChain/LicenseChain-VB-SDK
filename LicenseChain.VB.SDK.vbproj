@@ -5,14 +5,15 @@
     <RootNamespace>LicenseChain.VB</RootNamespace>
     <AssemblyName>LicenseChain.VB.SDK</AssemblyName>
     <PackageId>LicenseChain.VB.SDK</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>LicenseChain Team</Authors>
     <Company>LicenseChain LLC</Company>
     <Product>LicenseChain VB.NET SDK</Product>
     <Description>Official LicenseChain VB.NET SDK for license management and validation</Description>
     <Copyright>Copyright © 2024 LicenseChain LLC</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/LicenseChain/LicenseChain-VB-SDK</PackageProjectUrl>
+    <PackageProjectUrl>https://licensechain.app</PackageProjectUrl>
+
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/LicenseChain/LicenseChain-VB-SDK</RepositoryUrl>
     <PackageTags>license;validation;api;sdk;vb.net</PackageTags>
