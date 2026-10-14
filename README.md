@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/badge/license-Elastic--2.0-blue.svg)](LICENSE)
 [![VB.NET](https://img.shields.io/badge/VB.NET-8.0+-blue.svg)](https://docs.microsoft.com/en-us/dotnet/visual-basic/)
 [![.NET](https://img.shields.io/badge/.NET-10.0-green.svg)](https://dotnet.microsoft.com/)
+[![NuGet](https://img.shields.io/nuget/v/LicenseChain.VB.SDK)](https://www.nuget.org/packages/LicenseChain.VB.SDK)
+[![CI](https://github.com/LicenseChain/LicenseChain-VB-SDK/actions/workflows/ci.yml/badge.svg)](https://github.com/LicenseChain/LicenseChain-VB-SDK/actions/workflows/ci.yml)
 
 Official VB.NET SDK for LicenseChain - Secure license management for VB.NET applications.
 
@@ -16,7 +18,6 @@ Official VB.NET SDK for LicenseChain - Secure license management for VB.NET appl
 - **⚡ High Performance** - Optimized for production workloads
 - **🔄 Async Operations** - Non-blocking HTTP requests and data processing
 - **🛠 Easy Integration** - Simple API with comprehensive documentation
-
 
 ## License assertion JWT (RS256 + JWKS)
 
@@ -466,7 +467,6 @@ This project is licensed under the Elastic License 2.0 (ELv2) — see the [LICEN
 
 **Made with ❤️ for the VB.NET community**
 
-
 ## API Endpoints
 
 All endpoints automatically use the /v1 prefix when connecting to https://api.licensechain.app.
@@ -488,7 +488,6 @@ All endpoints automatically use the /v1 prefix when connecting to https://api.li
 | GET | /v1/analytics | Get analytics |
 
 **Note**: The SDK automatically prepends /v1 to all endpoints, so you only need to specify the path (e.g., /auth/login instead of /v1/auth/login).
-
 
 ## LicenseChain API (v1)
 
