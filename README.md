@@ -4,6 +4,7 @@
 [![VB.NET](https://img.shields.io/badge/VB.NET-8.0+-blue.svg)](https://docs.microsoft.com/en-us/dotnet/visual-basic/)
 [![.NET](https://img.shields.io/badge/.NET-10.0-green.svg)](https://dotnet.microsoft.com/)
 [![NuGet](https://img.shields.io/nuget/v/LicenseChain.VB.SDK)](https://www.nuget.org/packages/LicenseChain.VB.SDK)
+[![Downloads](https://img.shields.io/nuget/dt/LicenseChain.VB.SDK)](https://www.nuget.org/packages/LicenseChain.VB.SDK)
 [![CI](https://github.com/LicenseChain/LicenseChain-VB-SDK/actions/workflows/ci.yml/badge.svg)](https://github.com/LicenseChain/LicenseChain-VB-SDK/actions/workflows/ci.yml)
 
 Official VB.NET SDK for LicenseChain - Secure license management for VB.NET applications.
