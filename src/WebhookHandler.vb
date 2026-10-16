@@ -29,7 +29,13 @@ Namespace LicenseChain.VB
 
             Try
                 Dim expectedSignature As String = GenerateSignature(payload)
-                Return String.Equals(signature, expectedSignature, StringComparison.OrdinalIgnoreCase)
+                Dim provided As String = If(signature, String.Empty).Trim()
+                If provided.StartsWith("sha256=", StringComparison.OrdinalIgnoreCase) Then
+                    provided = provided.Substring(7)
+                End If
+                Dim expectedBytes As Byte() = Encoding.UTF8.GetBytes(expectedSignature.ToLowerInvariant())
+                Dim providedBytes As Byte() = Encoding.UTF8.GetBytes(provided.ToLowerInvariant())
+                Return expectedBytes.Length = providedBytes.Length AndAlso CryptographicOperations.FixedTimeEquals(expectedBytes, providedBytes)
             Catch
                 Return False
             End Try
