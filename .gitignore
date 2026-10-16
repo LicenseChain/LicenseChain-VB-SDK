@@ -80,3 +80,6 @@ CLAUDE.md
 *.user
 *.suo
 .vs/
+
+*.nupkg
+nupkg/
