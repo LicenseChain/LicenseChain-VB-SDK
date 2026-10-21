@@ -39,7 +39,7 @@ Successful **`POST /v1/licenses/verify`** may include **`license_token`**, **`li
 Install-Package LicenseChain.VB.SDK
 
 # Or via .NET CLI
-dotnet add package LicenseChain.VB.SDK --version 1.0.2
+dotnet add package LicenseChain.VB.SDK --version 1.0.3
 ```
 
 ### Method 2: PackageReference
@@ -47,7 +47,7 @@ dotnet add package LicenseChain.VB.SDK --version 1.0.2
 Add to your `.vbproj`:
 
 ```xml
-<PackageReference Include="LicenseChain.VB.SDK" Version="1.0.2" />
+<PackageReference Include="LicenseChain.VB.SDK" Version="1.0.3" />
 ```
 
 ### Method 3: Manual Installation
