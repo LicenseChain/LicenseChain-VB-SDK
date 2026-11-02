@@ -1,6 +1,6 @@
 # LicenseChain VB.NET SDK
 
-[![License](https://img.shields.io/badge/license-Elastic--2.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![VB.NET](https://img.shields.io/badge/VB.NET-8.0+-blue.svg)](https://docs.microsoft.com/en-us/dotnet/visual-basic/)
 [![.NET](https://img.shields.io/badge/.NET-10.0-green.svg)](https://dotnet.microsoft.com/)
 [![NuGet](https://img.shields.io/nuget/v/LicenseChain.VB.SDK)](https://www.nuget.org/packages/LicenseChain.VB.SDK)
@@ -472,7 +472,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 📄 License
 
-This project is licensed under the Elastic License 2.0 (ELv2) — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License (ELv2) — see the [LICENSE](LICENSE) file for details.
 
 ## 🆘 Support
 
